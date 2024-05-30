@@ -1,0 +1,37 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {height: 100%; width: 100%; font-family: gilroy; background-color: black !important;}
+:root {--backgroundColor--: black;}
+#header-section {color: white !important;}
+#main {height: 100vh; width: 100%; }
+.navbar-nav .nav-item .nav-link {color: white !important;}
+
+/* custom classes */
+.clr-white {color: white !important;}
+.clr-light-black {color: rgb(106, 106, 106);}
+.clr-bg-black {background-color: #171717;}
+.box-height {height: 250px;}
+.box-height-sm{ height: 200px;}
+.box-radius {border-radius: 30px;}
+.icon-size{ font-size: 50px; }
+:root { --animate-delay: 2s;}
+/* custom classes */
+
+/* hero section styles start */
+#hero-section { width: 100%; padding:30px 30px 30px 0; overflow: hidden;}
+.image-container {margin: 0 50px;}
+.hero-image img {width: 200px;}
+.image-content {border-radius: 30px; border: 1px solid; padding-top: 15px;}
+a.section-logo img {rotate: -90deg;}
+.hero-about {margin: 20px 0;}
+.text-moving {border-radius: 30px; padding: 15px; width: 82%;}
+.hero-Credentials {width: 260px; margin-right: 10px; border-radius: 30px;}
+.hero-portfolio {width: 260px; margin-right: 10px; border-radius: 30px;}
+/* hero section styles ends */
+/* services section style starts */
+.all-services{ padding: 30px; max-width: 95%;}
+/* services section style ends */
+/* experience section style starts */
+.experience{ margin-top: 120px;  max-width: 98%;}
+.exp-detail{ margin-right: 10px;}
+
+/* experience section style ends */

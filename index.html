@@ -1,25 +1,208 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title> </title>
+    <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      px-3
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="Style.css" />
+    <link
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <div id="main">
+      <!-- Header Starts Here -->
+      <section id="header-section">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav clr-white me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <button class="btn btn-outline-primary" type="submit">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- Header ends Here -->
 
-    <script src="" async defer></script>
+      <!-- Hero Section Starts Here -->
+      <section id="hero-section" class="d-flex">
+        <div class="image-container animate__animated animate__fadeIn clr-white  col-6">
+          <div
+            class="image-content clr-bg-black d-flex align-items-center justify-content-evenly"
+            style="margin-top: 20px"
+          >
+            <div class="hero-image">
+              <img src="./assets/images/hero-img.png" alt="" />
+            </div>
+            <div class="hero-content">
+              <h6 class="clr-light-black">A WEB DESIGNER</h6>
+              <h2 class="clr-white ">
+                Aamir <br />
+                Yousaf
+              </h2>
+              <p class="clr-light-black">I am a Web Designer based in Pakistan.</p>
+              <a href="" class="detail-btn">
+                <img src="./assets/images/icon2.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+         <div class="hero-about animate__animated animate__fadeIn col-6">
+            <div class="text-moving p-3 clr-bg-black clr-white ">
+              <marquee behavior="" direction=""
+                 >This text will scroll from right to left</marquee>
+            </div>
+            <div class="hero-about-content d-flex">
+              <div class="hero-Credentials box-height clr-bg-black mt-2">
+                 <div class="hero-sign">
+                    <img src="./assets/images/my-works.png" alt="project">
+                 </div>
+                 <div class="sing-content p-2 d-flex justify-content-evenly">
+                    <div class="sign-about">
+                      <h6 class=" clr-light-black">SHOWCASE</h6>
+                      <h3 class="clr-white ">Projects</h3>
+                    </div>
+                    <div class="detail-btn">
+                      <img src="./assets/images/icon2.png" alt=""/></a>
+                    </div>
+                 </div>       
+              </div>
+              <div class="hero-portfolio  box-height clr-bg-black mt-2">
+                 <div class="hero-sign">
+                    <img src="./assets/images/sign.png" alt="Signature">
+                 </div>
+                 <div class="sing-portfolio p-2 d-flex justify-content-evenly">
+                    <div class="portfolio-about">
+                      <h6 class=" clr-light-black">MORE ABOUT ME</h6>
+                      <h3 class="clr-white ">CREDENTIALS</h3>
+                    </div>
+                    <div class="detail-btn">
+                      <img src="./assets/images/icon2.png" alt=""/></a>
+                    </div>
+                 </div>       
+              </div>
+            </div>
+         </div>
+      </section>
+      <!-- Hero Section ends here -->
+      <!-- about profile section Starts -->
+      <section class="all-services d-flex ">
+        <div class="blog animate__animated animate__fadeInRight clr-bg-black col-3 clr-white   mx-2 box-radius box-height">
+          <div class="hero-portfolio  box-height mt-2">
+                 <div class="hero-sign">
+                    <img src="./assets/images/gfonts.png" alt="Signature">
+                 </div>
+                 <div class="sing-portfolio p-2 d-flex justify-content-evenly">
+                    <div class="portfolio-about">
+                      <h6 class=" clr-light-black">MORE ABOUT ME</h6>
+                      <h3 class="clr-white ">CREDENTIALS</h3>
+                    </div>
+                    <div class="detail-btn">
+                      <img src="./assets/images/icon2.png" alt=""/></a>
+                    </div>
+                 </div>       
+              </div>
+            </div>
+        <div class="services animate__animated animate__fadeIn clr-bg-black clr-white mx-2 box-radius  col-6 box-height">
+           <div class="detail-services">
+              <div class="servies-imgs d-flex justify-content-evenly align-items-center p-5">
+                 <i class="icon-size fa-brands fa-figma"></i>
+                 <i class="icon-size fa-brands fa-wordpress"></i>
+                 <i class="icon-size fa-solid fa-database"></i>
+                 <i class="icon-size fa-solid fa-server"></i>
+              </div>
+              <div class="sevices-availble d-flex justify-content-evenly ">
+                    <div class="availble-about">
+                       <h6 class=" clr-light-black">MORE ABOUT ME</h6>
+                       <h3 class="clr-white ">CREDENTIALS</h3>
+                    </div>
+                    <div class="detail-btn">
+                      <img src="./assets/images/icon2.png" alt=""/></a>
+                    </div>
+              </div>
+          </div>
+        </div>
+        <div class="profile clr-bg-black clr-white mx-2 box-radius animate__animated animate__fadeInLeft col-3 box-height d-flex">
+                 <div class="hero-portfolio  box-height mt-2">
+                 <div class="hero-sign d-flex justify-content-evenly align-items-center p-5">
+                   <i class="icon-size fa-brands fa-linkedin-in"></i>
+                   <i class="icon-size fa-brands fa-github"></i>
+                 </div>
+                 <div class="sing-portfolio p-2 d-flex justify-content-evenly">
+                    <div class="portfolio-about">
+                      <h6 class=" clr-light-black">MORE ABOUT ME</h6>
+                      <h3 class="clr-white ">CREDENTIALS</h3>
+                    </div>
+                    <div class="detail-btn">
+                      <img src="./assets/images/icon2.png" alt=""/></a>
+                    </div>
+                 </div>       
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- about profile section ends -->
+      <!-- experience Section stats  -->
+      <Section class="experience d-flex ">
+        <div class="all-exp d-flex justify-content-evenly"></div>
+           <div class="exp-detail col-6 clr-bg-black box-radius box-height">
+              <div class="exp-years box-radius box-height-sm clr-bg-black">
+                 <h2 class="clr-white">05</h2>
+                 <h6 class="clr-light-black">YEARS EXPERIENCE</h6>
+              </div>
+              <div class="exp-clients"></div>
+              <div class="exp-projects"></div>
+           </div>
+           <div class="exp-conect col-6 clr-bg-black box-radius box-height"></div>
+        </div>
+      </Section>
+      <!-- experience Section ends  -->
+    </div>
+    <script src="Script.js" async defer></script>
   </body>
 </html>
