@@ -13,28 +13,24 @@ body {height: 100%; width: 100%; font-family: gilroy; background-color: black !i
 .box-height-sm{ height: 200px;}
 .box-radius {border-radius: 30px;}
 .icon-size{ font-size: 50px; }
-.con-width{ width: 49%;}
+.ctm-width{ width: 48%;}
+.ctm-sm-width{ width: 30%;}
 .box-margin-btm{ margin-bottom: 50px;}
+.clr-blue{ color: blue;}
+.box-sm-border-clr{border-color: #2b2b2b54;}
+.box-gradient-clr{ background-image: linear-gradient(to right, #202020 , #171717);}
 :root { --animate-delay: 2s;}
 /* custom classes */
 
 /* hero section styles start */
 #hero-section { justify-content: space-between; }
-/* .image-container {margin: 0 50px;} */
+
 .hero-image img {width: 200px;}
 .image-content {border-radius: 30px; border: 1px solid; padding-top: 15px;}
 a.section-logo img {rotate: -90deg;}
 .hero-about-content{ margin: 0 auto;}
-/* .hero-about {margin: 20px 0;} */
-.text-moving {border-radius: 30px;}
-.hero-Credentials {width: 260px;  border-radius: 30px;}
-.hero-portfolio {width: 260px;  border-radius: 30px;}
-/* hero section styles ends */
-/* services section style starts */
-.all-services{ }
-/* services section style ends */
-/* experience section style starts */
-.experience{   }
-/* .exp-detail{ margin-right: 10px;} */
-.exp-sm-box{ }
+/* hero section styles end */
+
+
+.exp-sm-container{ background-color: aliceblue; }
 /* experience section style ends */
