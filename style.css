@@ -34,3 +34,4 @@ a.section-logo img {rotate: -90deg;}
 
 .exp-sm-container{ background-color: aliceblue; }
 /* experience section style ends */
+.menu-box{  width: 5%; position: fixed; z-index: 5; top: 50px; left: 5px; padding: 7px; height: 60%;}
