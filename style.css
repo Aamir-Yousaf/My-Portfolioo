@@ -2,23 +2,18 @@
 body {height: 100%; width: 100%; font-family: gilroy; background-color: black !important;}
 :root {--backgroundColor--: black;}
 #header-section {color: white !important;}
-#main { width: 1200px; margin: 0 auto;}
+#main {  margin: 0 auto;}
 .navbar-nav .nav-item .nav-link {color: white !important;}
 
 /* custom classes */
-.clr-white {color: white !important;}
 .clr-light-black {color: rgb(106, 106, 106);}
-.clr-bg-black {background-color: #171717;}
-.box-height {height: 250px;}
+.clr-bg-black {background-image: linear-gradient(to right, #202020 , #171717);}
 .box-height-sm{ height: 200px;}
 .box-radius {border-radius: 30px;}
 .icon-size{ font-size: 50px; }
-.ctm-width{ width: 48%;}
-.ctm-sm-width{ width: 30%;}
-.box-margin-btm{ margin-bottom: 50px;}
 .clr-blue{ color: blue;}
 .box-sm-border-clr{border-color: #2b2b2b54;}
-.box-gradient-clr{ background-image: linear-gradient(to right, #202020 , #171717);}
+.box-sm-bg-clr{ background-image: linear-gradient(to right,#1C1C1C , #181818); }
 :root { --animate-delay: 2s;}
 /* custom classes */
 
@@ -31,7 +26,4 @@ a.section-logo img {rotate: -90deg;}
 .hero-about-content{ margin: 0 auto;}
 /* hero section styles end */
 
-
-.exp-sm-container{ background-color: aliceblue; }
-/* experience section style ends */
-.menu-box{  width: 5%; position: fixed; z-index: 5; top: 50px; left: 5px; padding: 7px; height: 60%;}
+.cursor{ height: 20px; width: 20px; border-radius: 50%;  background-color: white;}
