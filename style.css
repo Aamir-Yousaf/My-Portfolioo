@@ -7,7 +7,13 @@ body {height: 100%; width: 100%; font-family: gilroy; background-color: black !i
 
 /* custom classes */
 .clr-light-black {color: rgb(106, 106, 106);}
-.clr-bg-black {background-image: linear-gradient(to right, #202020 , #171717);}
+.clr-bg-black {/* From https://css.glass */
+background: rgba(255, 255, 255, 0.08);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.5px);
+-webkit-backdrop-filter: blur(3.5px);
+border: 1px solid rgba(255, 255, 255, 0.5);}
 .box-height-sm{ height: 200px;}
 .box-radius {border-radius: 30px;}
 .icon-size{ font-size: 50px; }
@@ -27,3 +33,15 @@ a.section-logo img {rotate: -90deg;}
 /* hero section styles end */
 
 .cursor{ height: 20px; width: 20px; border-radius: 50%;  background-color: white;}
+  
+        .contact-form legend {
+            border: none;
+        }
+        .contact-form .form-control {
+            background-color: transparent;
+            border: 1px solid white;
+            
+        }
+        .contact-form .form-control::placeholder {
+            color: white;
+        }

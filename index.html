@@ -10,7 +10,6 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="Style.css" />
     <link
       px-3
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -26,9 +25,9 @@
     <link
   </head>
   <body>
-    <div id="main">
+    <div id="main_home">
       <!-- Header Starts Here -->
-      <section id="header-section">
+      <header id="header-section">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
@@ -66,7 +65,7 @@
             </div>
           </div>
         </nav>
-      </section>
+      </header>
       <!-- Header ends Here -->
 
       <!-- Hero Section Starts Here -->
@@ -110,7 +109,7 @@
                     </div>
                  </div>       
               </div>
-              <div class="hero-portfolio box-radius d-flex align-items-center justify-content-cneter flex-column px-md-5  clr-bg-black mx-sm-1 p-lg-2 mt-2">
+              <div class="hero-portfolio box-radius d-flex align-items-center justify-content-cneter flex-column px-md-5  clr-bg-black mx-sm-1 p-lg-3  mt-2">
                  <div class="hero-sign">
                     <img src="./assets/images/sign.png" alt="Signature">
                  </div>
@@ -129,7 +128,7 @@
       </section>
       <!-- Hero Section ends here -->
       <!-- about profile section Starts -->
-            <section class="all-services d-flex mx-5 justify-content-between mb-5">
+            <section class="all-services d-flex mx-5 justify-content-between gap-3  mb-5">
         <div class="blog animate__animated animate__fadeInRight clr-bg-black col-3 col-md-4  text-white  box-radius ">
           <div class="hero-portfolio  mt-2">
             <div class="hero-sign">
@@ -146,7 +145,7 @@
             </div>
           </div>
         </div>
-        <div class="services animate__animated animate__fadeIn clr-bg-black text-white box-radius col-md-4  col-lg-6 ">
+        <div class="services animate__animated animate__fadeIn clr-bg-black text-white box-radius col-md-4  col-lg-5 ">
           <div class="detail-services">
             <div class="servies-imgs d-flex justify-content-evenly align-items-center p-5">
               <i class="icon-size fa-brands fa-figma"></i>
@@ -154,7 +153,7 @@
               <i class="icon-size fa-solid fa-database"></i>
              <i class="icon-size fa-brands  fa-github"></i>
             </div>
-            <div class="sevices-availble d-flex justify-content-evenly">
+            <div class="sevices-availble d-flex col-lg-3 justify-content-evenly">
               <div class="availble-about ">
                 <h6 class="clr-light-black">MORE ABOUT ME</h6>
                 <h3 class="text-white">CREDENTIALS</h3>
@@ -165,7 +164,7 @@
             </div>
           </div>
         </div>
-        <div class="profile clr-bg-black text-white  box-radius animate__animated animate__fadeInLeft col-3  d-flex">
+        <div class="profile clr-bg-black text-white  box-radius animate__animated animate__fadeInLeft col-lg-3  d-flex">
           <div class="hero-portfolio  mt-2">
             <div class="hero-sign d-flex justify-content-evenly align-items-center p-5">
               <i class="icon-size fa-brands  fa-linkedin-in "></i>
@@ -186,19 +185,24 @@
 
       <!-- about profile section ends -->
       <!-- experience Section stats  -->
-          <section class="experience d-flex justify-content-between align-items-center mx-5">
-             <div class="exp-detail ctm-width   box-radius">
-               <div class="exp-sm-container d-flex justify-content-evenly align-items-center box-radius  clr-bg-black ">
-                  <div class="exp-sm-box -sm ctm-sm-width clr-bg-black box-radius col-2 d-flex justify-content-center align-items-center text-white box-sm-bg-clr flex-column "> 
+          <section class="experience  d-flex justify-content-between  align-items-center gap-3 mx-5">
+             <div class="exp-detail col-lg-6   box-radius">
+               <div class="exp-sm-container d-flex justify-content-evenly align-items-center box-radius  clr-bg-black  ">
+                  <div class="exp-sm-box  p-3 clr-bg-black box-radius col-2 d-flex justify-content-center box-height-sm align-items-center text-white box-sm-bg-clr flex-column "> 
                      <h6> 05</h6>
-                     <h6> 05</h6>
-                     <h6> 05</h6>
+                     <h6> YEAR <br> EXPERIENCE</h6>              
                   </div>
-                  <div class="exp-sm-box -sm ctm-sm-width box-sm-bg-clr box-radius col-2 d-flex justify-content-center align-items-center text-white"> b</div>
-                  <div class="exp-sm-box -sm ctm-sm-width box-sm-bg-clr box-radius col-2 d-flex justify-content-center align-items-center text-white"> c</div>  
+                  <div class="exp-sm-box -sm ctm-sm-width box-sm-bg-clr box-radius col-2  p-3 justify-content-center box-height-sm align-items-center text-white ">
+                     <h6>+125</h6>
+                     <h6>CLIENTS <br> WORLDWIDE</h6>
+                  </div>
+                  <div class="exp-sm-box -sm ctm-sm-width box-sm-bg-clr box-radius col-2  justify-content-center box-height-sm align-items-center text-white "> 
+                     <h6>+210</h6>
+                     <h6>TOTLA <br> PROJECTS</h6>
+                  </div>  
                 </div>  
              </div>
-             <div class="exp-intouch ctm-width clr-bg-black  box-radius d-flex justify-content-center align-items-center">
+             <div class="exp-intouch col-lg-6 ctm-width clr-bg-black  box-radius  justify-content-center align-items-center">
                <h2 class="clr-blue">Get In Touch</h2>
              </div>
            </section>
@@ -217,7 +221,7 @@
               <li class="menu-list me-3"><a href="#home" class="text-white text-decoration-none">Home</a></li>
               <li class="menu-list me-3"><a href="#about" class="text-white text-decoration-none">About</a></li>
               <li class="menu-list me-3"><a href="#services" class=" text-white text-decoration-none">Services</a></li>
-              <li class="menu-list"><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+              <li class="menu-list"><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
           </ul>
       </div>
       <div class=rights-footer">
