@@ -24,52 +24,35 @@
     <link rel="stylesheet" href="Style.css" />
     <link
   </head>
+  <header id="header-section">
+        <nav class="mb-5">
+        <div class="logo">
+            <img src="logo.svg" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><button class="login-button" href="#">Login</button></li>
+            <li><button class="join-button" href="#">Join</button></li>
+        </ul>
+    </nav>
+      </header>
+      <!-- Header ends Here -->
   <body>
     <div id="main_home">
       <!-- Header Starts Here -->
-      <header id="header-section">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav text-white me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-              <button class="btn btn-outline-primary" type="submit">
-                Contact Us
-              </button>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <!-- Header ends Here -->
+      
 
       <!-- Hero Section Starts Here -->
-      <section id="hero-section" class="d-flex flex-lg-row flex-md-column gap-3 mb-5 mx-5">
+      <section id="hero-section" class="d-flex flex-lg-row flex-md-column gap-3 mb-5  mx-5">
         <div class="image-container animate__animated animate__fadeIn text-white col-md-12 col-lg-6">
           <div
             class="image-content clr-bg-black d-flex align-items-center justify-content-evenly">
@@ -109,7 +92,7 @@
                     </div>
                  </div>       
               </div>
-              <div class="hero-portfolio box-radius d-flex align-items-center justify-content-cneter flex-column px-md-5  clr-bg-black mx-sm-1 p-lg-3  mt-2">
+              <div class="hero-portfolio box-radius d-flex align-items-center justify-content-cneter flex-column p-xl-3  clr-bg-black mx-sm-1  mt-2">
                  <div class="hero-sign">
                     <img src="./assets/images/sign.png" alt="Signature">
                  </div>
@@ -145,63 +128,66 @@
             </div>
           </div>
         </div>
-        <div class="services animate__animated animate__fadeIn clr-bg-black text-white box-radius col-md-4  col-lg-5 ">
-          <div class="detail-services">
-            <div class="servies-imgs d-flex justify-content-evenly align-items-center p-5">
-              <i class="icon-size fa-brands fa-figma"></i>
-              <i class="icon-size fa-brands fa-wordpress"></i>
-              <i class="icon-size fa-solid fa-database"></i>
-             <i class="icon-size fa-brands  fa-github"></i>
-            </div>
-            <div class="sevices-availble d-flex col-lg-3 justify-content-evenly">
-              <div class="availble-about ">
-                <h6 class="clr-light-black">MORE ABOUT ME</h6>
-                <h3 class="text-white">CREDENTIALS</h3>
-              </div>
-              <div class="detail-btn">
-                <img src="./assets/images/icon2.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="profile clr-bg-black text-white  box-radius animate__animated animate__fadeInLeft col-lg-3  d-flex">
-          <div class="hero-portfolio  mt-2">
-            <div class="hero-sign d-flex justify-content-evenly align-items-center p-5">
-              <i class="icon-size fa-brands  fa-linkedin-in "></i>
-              <i class="icon-size  fa-brands  fa-dribbble"></i>
-            </div>
-            <div class="sing-portfolio  d-flex  justify-content-evenly">
-              <div class="portfolio-about">
-                <h6 class="clr-light-black">MORE ABOUT ME</h6>
-                <h3 class="text-white">CREDENTIALS</h3>
-              </div>
-              <div class="detail-btn">
-                <img src="./assets/images/icon2.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
+       <div class="services animate__animated animate__fadeIn clr-bg-black text-white box-radius col-md-4 col-lg-5 mx-auto d-flex flex-column align-items-center">
+  <div class="detail-services text-center">
+    <div class="servies-imgs d-flex justify-content-evenly align-items-center p-5">
+      <i class="icon-size fa-brands fa-figma"></i>
+      <i class="icon-size fa-brands fa-wordpress"></i>
+      <i class="icon-size fa-solid fa-database"></i>
+      <i class="icon-size fa-brands fa-github"></i>
+    </div>
+    <div class="sevices-availble d-flex justify-content-evenly align-items-center">
+      <div class="availble-about text-center">
+        <h6 class="clr-light-black">MORE ABOUT ME</h6>
+        <h3 class="text-white">CREDENTIALS</h3>
+      </div>
+      <div class="detail-btn text-center">
+        <img src="./assets/images/icon2.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+       <div class="profile clr-bg-black text-white box-radius animate__animated animate__fadeInLeft col-lg-3 mx-auto d-flex flex-column align-items-center">
+  <div class="hero-portfolio mt-2 text-center">
+    <div class="hero-sign d-flex justify-content-evenly align-items-center p-5">
+      <i class="icon-size fa-brands fa-linkedin-in"></i>
+      <i class="icon-size fa-brands fa-dribbble"></i>
+    </div>
+    <div class="sing-portfolio d-flex justify-content-evenly align-items-center">
+      <div class="portfolio-about text-center">
+        <h6 class="clr-light-black">MORE ABOUT ME</h6>
+        <h3 class="text-white">CREDENTIALS</h3>
+      </div>
+      <div class="detail-btn text-center">
+        <img src="./assets/images/icon2.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
       </section>
 
       <!-- about profile section ends -->
       <!-- experience Section stats  -->
           <section class="experience  d-flex justify-content-between  align-items-center gap-3 mx-5">
-             <div class="exp-detail col-lg-6   box-radius">
-               <div class="exp-sm-container d-flex justify-content-evenly align-items-center box-radius  clr-bg-black  ">
-                  <div class="exp-sm-box  p-3 clr-bg-black box-radius col-2 d-flex justify-content-center box-height-sm align-items-center text-white box-sm-bg-clr flex-column "> 
-                     <h6> 05</h6>
-                     <h6> YEAR <br> EXPERIENCE</h6>              
-                  </div>
-                  <div class="exp-sm-box -sm ctm-sm-width box-sm-bg-clr box-radius col-2  p-3 justify-content-center box-height-sm align-items-center text-white ">
-                     <h6>+125</h6>
-                     <h6>CLIENTS <br> WORLDWIDE</h6>
-                  </div>
-                  <div class="exp-sm-box -sm ctm-sm-width box-sm-bg-clr box-radius col-2  justify-content-center box-height-sm align-items-center text-white "> 
-                     <h6>+210</h6>
-                     <h6>TOTLA <br> PROJECTS</h6>
-                  </div>  
-                </div>  
-             </div>
+             <div class="exp-detail col-lg-6 box-radius mx-auto">
+  <div class="exp-sm-container d-flex justify-content-between align-items-center box-radius clr-bg-black p-3">
+    <div class="exp-sm-box p-3 clr-bg-black box-radius col-2 d-flex flex-column justify-content-center align-items-center text-white mx-2 box-height-sm box-sm-bg-clr"> 
+      <h6>05</h6>
+      <h6>YEAR <br> EXPERIENCE</h6>              
+    </div>
+    <div class="exp-sm-box p-3 clr-bg-black box-radius col-2 d-flex flex-column justify-content-center align-items-center text-white mx-2 box-height-sm box-sm-bg-clr">
+      <h6>+125</h6>
+      <h6>CLIENTS <br> WORLDWIDE</h6>
+    </div>
+    <div class="exp-sm-box p-3 clr-bg-black box-radius col-2 d-flex flex-column justify-content-center align-items-center text-white mx-2 box-height-sm box-sm-bg-clr"> 
+      <h6>+210</h6>
+      <h6>TOTAL <br> PROJECTS</h6>
+    </div>  
+  </div>  
+</div>
+
              <div class="exp-intouch col-lg-6 ctm-width clr-bg-black  box-radius  justify-content-center align-items-center">
                <h2 class="clr-blue">Get In Touch</h2>
              </div>
