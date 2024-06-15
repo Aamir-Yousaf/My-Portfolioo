@@ -27,6 +27,7 @@ border: 1px solid rgba(255, 255, 255, 0.5);}
 #hero-section { justify-content: space-between; }
 
 .hero-image img {width: 200px;}
+#sevices-main img {width: 350px; border-radius: 30px; height: fit-content;padding: 20px;}
 .image-content {border-radius: 30px; border: 1px solid; padding-top: 15px;}
 a.section-logo img {rotate: -90deg;}
 .hero-about-content{ margin: 0 auto;}
