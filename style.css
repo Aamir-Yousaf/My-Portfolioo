@@ -22,7 +22,7 @@ border: 1px solid rgba(255, 255, 255, 0.5);}
 .box-sm-bg-clr{ background-image: linear-gradient(to right,#1C1C1C , #181818); }
 :root { --animate-delay: 2s;}
 /* custom classes */
-#main_home, #sevices-main, #main-contact-us, #hero-section { padding-top: 100px; }
+#main_home, #sevices-main, #main-contact-us, #about-section { padding-top: 100px; }
 /* hero section styles start */
 #hero-section { justify-content: space-between; }
 
