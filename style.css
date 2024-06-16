@@ -32,7 +32,7 @@ border: 1px solid rgba(255, 255, 255, 0.5);}
 a.section-logo img {rotate: -90deg;}
 .hero-about-content{ margin: 0 auto;}
 /* hero section styles end */
-
+section.contact-us{ margin:5% !important;}
 .cursor{ height: 20px; width: 20px; border-radius: 50%;  background-color: white;}
   
  .contact-form legend { border: none; }
